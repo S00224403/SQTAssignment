@@ -66,7 +66,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
@@ -80,7 +80,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
@@ -94,7 +94,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
@@ -111,7 +111,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
@@ -139,7 +139,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
@@ -153,7 +153,7 @@ namespace SQTAssignment
         {
             //arrange
             var mockDiscountService = new Mock<IDiscountService>();
-            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.9);
+            mockDiscountService.Setup(x => x.GetDiscount()).Returns(0.5);
             var insurance = new InsuranceService(mockDiscountService.Object);
 
             //act
