@@ -1,0 +1,28 @@
+﻿@page
+@using WebApp.Pages;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <h1>Calculate Insurance Premium</h1>
+    <form method="post">
+        <div class="form-group">
+            <label for="ageInput">Age</label>
+            <input type="number" class="form-control" id="ageInput" name="Age" />
+        </div>
+        <div class="form-group">
+            <label for="locationInput">Location</label>
+            <input type="text" class="form-control" id="locationInput" name="Location" />
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate Premium</button>
+    </form>
+
+    <div class="mt-4">
+        @if (Model.Premium > 0)
+        {
+            <h4>Premium: @Model.Premium</h4>
+        }
+    </div>
+</div>
