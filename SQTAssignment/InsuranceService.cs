@@ -58,6 +58,12 @@ namespace SQTAssignment
 
             return premium;
         }
+        /// <summary>
+        /// Adjusted method for web form
+        /// </summary>
+        /// <param name="age"></param>
+        /// <param name="location"></param>
+        /// <returns></returns>
         public double CalculatePremium(int age, string location)
         {
             double premium;
